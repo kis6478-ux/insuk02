@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  }
+
+  /* Optimize Korean typography across headings and paragraphs */
+  h1, h2, h3, h4, h5, h6, p, span, a, button, label, li, div {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+}
